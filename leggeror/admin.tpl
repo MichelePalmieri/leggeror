@@ -1,5 +1,5 @@
 {include file=cpheader.tpl}
-
+<!--- admin.tpl --->
 		<div id="cpmain">
 			
 

@@ -13,8 +13,7 @@ Author URI: http://www.flatpress.org/
 	$theme['author'] = 'Michele Palmieri';
 	$theme['www'] = 'http://www.flatpress.org/';
 	$theme['description'] = 'FlatPress Theme responsive. ';
-	
-	
+
 	$theme['version'] = 0.705;
 		
 	$theme['style_def'] = 'style.css';

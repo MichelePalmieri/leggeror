@@ -3,11 +3,15 @@
 <head>
 	<title>{$flatpress.title}{$pagetitle}</title>
 	<meta http-equiv="Content-Type" content="text/html; charset={$flatpress.charset}" />
+	<script src="./fp-interface/themes/leggeror/leggeror/res/simplecss/js/zjs.min.js"></script>
 	{action hook=wp_head}
 	{action hook=admin_head}
 </head>
 
 <body class="{"admin-$panel-$action"|tag:admin_body_class}">
-	<div id="body-container">
-	<div id="outer-container">
+	<div id="body-container" class="dm-12>
+	<div id="outer-container" class="dm-12 padding-10">
+
+	
+	<div id="outer-container" class="dm-12 padding-10">	
 	

@@ -287,3 +287,6 @@ h4 { font-size: 1.2em; }
 	padding: 5px;
 	border-top: #bbb 1px solid
 }
+.listnone li {
+	list-style-type:none;
+}

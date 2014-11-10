@@ -20,4 +20,3 @@
 	{include file=widgetsright.tpl}
 </div>
 {include file=footer.tpl}
-{php var_dump $smarty;}

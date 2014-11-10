@@ -1,7 +1,7 @@
+<!-- ok footer.tpl -->
 		</div>
-		
-		
-		<div id="footer" class="dm-12 msg warning round box-shadow">
+		<div id="footer" class="dm-12 ">2222
+		        <div class="label">
 			{action hook=wp_footer}
 			
 			<!--
@@ -16,12 +16,11 @@
 				consider doing at least a small donation.  
 			
 			-->
-			
-			<p>
+			</div>
+		        <div class="label">
 			This blog is powered by <a href="http://www.flatpress.org/">FlatPress</a>.
-			</p>
+			</div>
 		</div> <!-- end of #footer -->
-
 	</div>
 </body>
 </html>

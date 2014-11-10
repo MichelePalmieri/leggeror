@@ -1,13 +1,13 @@
 {include file=header.tpl}
 
-		<div id="main" class="dm-12 padding-10">
+		<div id="main" class="dm-9 padding-10">
 		{entry_block}
 		{entry}
 			{include file=entry-default.tpl}
 		{comment_block}
 		<ol id="comments">
 		{comment}
-			<li id="{$id}" {$loggedin|notempty:"class=\"comment-admin\""}>
+		 <li id="{$id}" class="dm-12 note-warning {$loggedin|notempty:"comment-admin"} ">
 				
 				<strong class='comment-name'>
 				{* 
@@ -37,11 +37,12 @@
 
 		{/entry}
 
-		
-				
-			<div class="navigation">
-				{nextpage}{prevpage}
+		        <div class="dm-12" >
+			<div class="link" >{prevpage}</div>
+			<div class="link float-right" >{nextpage}</div>
 			</div>
+		
+
 
 
 		{/entry_block}

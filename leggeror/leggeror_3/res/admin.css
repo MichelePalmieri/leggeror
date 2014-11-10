@@ -6,7 +6,7 @@ Ispired by: http://pluxml.org theme default
 -------------------
 
 Name: LeggeroR
-Author: NoWhereMan & drudo
+Author: Michele Palmieri
 Version: 0.1
 Module: admin.css
 */
@@ -36,7 +36,12 @@ h2 {
 	border-bottom: 1px solid #ddd;
 }
 
-body { background: #eee; }
+body { 
+	background: #eee; 
+	margin: 0px auto;
+	max-width: 1160px !important;
+	width: 100%;	
+}
 
 /* === Redefines some stuff in inline mode === */
 body#inline-body {
