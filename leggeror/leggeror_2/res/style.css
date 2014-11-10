@@ -6,7 +6,7 @@ Ispired by: http://pluxml.org theme default
 -------------------
 
 Name: LeggeroR
-Author: NoWhereMan & drudo
+Author: Michele Palmieri
 Version: 0.1
 Module: style.css
 */
@@ -14,9 +14,9 @@ Module: style.css
 
 
 /* imports common style ruleset */
-@import url(./simplecss/css/simplecss.min.css);
-@import url(./common.css);
-@import url(./globals.css);
+@import url(./simplecss.min.css);
+@import url(./../../common/css/common.css);
+@import url(./../../common/css/globals.css);
 
 /* imports column (where widgets usually go) rules */
 /*@import url(column.css);

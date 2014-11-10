@@ -1,7 +1,7 @@
 <!-- ok footer.tpl -->
 		</div>
-		<div id="footer" class="dm-12 ">2222
-		        <div class="label">
+		<div id="footer" class="dm-12 ">
+		        <div class="label round">
 			{action hook=wp_footer}
 			
 			<!--
@@ -17,7 +17,7 @@
 			
 			-->
 			</div>
-		        <div class="label">
+		        <div class="label round">
 			This blog is powered by <a href="http://www.flatpress.org/">FlatPress</a>.
 			</div>
 		</div> <!-- end of #footer -->

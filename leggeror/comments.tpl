@@ -56,6 +56,6 @@
 	
 		
 
-	<hr />
+
 	
 {include file=footer.tpl}

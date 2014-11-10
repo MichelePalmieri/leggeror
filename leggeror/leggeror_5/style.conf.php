@@ -17,8 +17,8 @@ Author URI: http://www.flatpress.org/
 	
 	$style['version'] = 0.705;
 	$style['style_def'] = 'style.css';
-	$style['style_admin'] = 'admin.css';
-	$style['style_print'] = 'print.css';
+	$style['style_admin'] = './../../common/css/admin.css';
+	$style['style_print'] = './../../common/css/print.css';
 	$style['style'] = 'default';
 	
 ?>
