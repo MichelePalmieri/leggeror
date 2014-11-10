@@ -1,0 +1,40 @@
+/*
+===================
+LeggeroR CSS Styles
+===================
+Ispired by: http://pluxml.org theme default
+-------------------
+
+Name: LeggeroR
+Author: NoWhereMan & drudo
+Version: 0.1
+Module: style.css
+*/
+
+
+
+/* imports common style ruleset */
+@import url(./simplecss/css/simplecss.min.css);
+@import url(./common.css);
+@import url(./globals.css);
+
+/* imports column (where widgets usually go) rules */
+/*@import url(column.css);
+*/
+/* defines rules specific to the front page */
+body {
+	max-width: 1160px !important;
+	max-width: 1148px; /* fix for I.E. */
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+
+#comments li.comment-admin {
+	padding:1em
+}
+
+#comments li.comment-admin strong.comment-name { font-size:140% }
+
+#widget-searchbox form {
+	text-align: center;
+}
