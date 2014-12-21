@@ -1,5 +1,5 @@
 {include file=header.tpl}
-<--default.tpl-->1
+<--default.tpl-->
 			<div id="main" class="dm-12 padding-10">
 				
 
