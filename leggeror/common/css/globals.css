@@ -1,21 +1,3 @@
-@media screen and (min-width: 992px){
-	.desktop-hide{
-		display:none; !important;
-	}	
-}
-
-@media screen and (max-width: 992px){
-	.mobile-show{
-		display:block; !important;
-	}	
-}
-.menu .menu-item > *, .menu a, .menu .menu-title > *, .menu-horizontal .menu-item > *, .menu-horizontal a, .menu-horizontal .menu-title > * {
-padding: 2px;
-}
-.menu .menu-title, .menu .menu-title *, .menu-horizontal .menu-title, .menu-horizontal .menu-title * {
-	background: inherit;
-}
-
 /*
 ===================
 LeggeroR CSS Styles
