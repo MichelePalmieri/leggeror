@@ -7,8 +7,6 @@ Version: 0.705
 Author: Michele Palmieri
 Author URI: http://www.flatpress.org/
 */
-
-
 	$theme['name'] = 'leggeror';
 	$theme['author'] = 'Michele Palmieri';
 	$theme['www'] = 'http://www.flatpress.org/';
@@ -19,14 +17,13 @@ Author URI: http://www.flatpress.org/
 	$theme['style_def'] = 'style.css';
 	$theme['style_admin'] = 'admin.css';
 	
-//	$theme['default_style'] = 'leggeror';
-	$tmp = 6;
+	$tmp = 1;
 	switch($tmp) {
 		case 0:
-			$theme['default_style'] = 'LeggeroR';
+			$theme['default_style'] = 'Leggeror';
 			break;
 		case 1:
-			$theme['default_style'] = 'LeggeroR_1';
+			$theme['default_style'] = 'Leggeror_1';
 			break;
 		case 2: 
 			$theme['default_style'] = 'leggeror_2';
@@ -44,6 +41,7 @@ Author URI: http://www.flatpress.org/
 			$theme['default_style'] = 'leggeror_6';
 			break;
 	}
+
 	// Other theme settings
 	
 	// overrides default tabmenu
@@ -54,5 +52,6 @@ Author URI: http://www.flatpress.org/
 	register_widgetset('right');
 	register_widgetset('left'); 
         register_widgetset('top');
-        register_widgetset('bottom');	
+	register_widgetset('bottom');
+        register_widgetset('mobilemenu');	
 ?>

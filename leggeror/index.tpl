@@ -1,9 +1,17 @@
-{include file=header.tpl}
-<!--index.tpl-->
-<div class="dm-2 ">
+{php}
+   global $leggeror;
+   $this->assign('leggeror',$leggeror);
+{/php}
+<br>
+{include file=header.tpl} 
+
+{if $leggeror.sx != 0} 
+<div class="dm-{$leggeror.sx} padding-10 desktop-show mobile-hide">
 	{include file=widgetsleft.tpl}	
 </div>
-<div id="main" class="dm-8 padding-10">
+{/if}
+
+<div id="main" class="dm-{$leggeror.cx} padding-10 ">
 	{entry_block}
 		{entry}
 			{include file='entry-default.tpl'}
@@ -16,7 +24,16 @@
 	{/entry_block}
 
 </div>
-<div class="dm-2">
+
+{if $leggeror.rx != 0}
+<div class="dm-{$leggeror.rx} padding-10 desktop-show mobile-hide">
 	{include file=widgetsright.tpl}
 </div>
+{/if}
+
+<div class="dm-12  padding-10">
 {include file=footer.tpl}
+</div>
+<script>
+ simplecssInit();
+</script>

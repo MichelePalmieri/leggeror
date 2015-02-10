@@ -1,4 +1,4 @@
-<!--ok widgets.tpl-->		
+<!--ok widgetsright.tpl-->		
 	{widgets pos=right}			
 		<div class="dm-12 ">
 			<div id="{$id}" class="dm-12">
